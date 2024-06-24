@@ -99,4 +99,5 @@ There are “testing development frameworks” as well to consider:
   
 **Useful Links:**  
 What is Software Testing? Definition, Types, and Tools - https://katalon.com/resources-center/blog/software-testing#  
-TDD vs BDD vs ATDD - https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
+TDD vs BDD vs ATDD - https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd  
+Types of non-functional testing - https://testsigma.com/blog/the-different-software-testing-types-explained/
