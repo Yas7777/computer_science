@@ -34,6 +34,13 @@ Testing can be divided into functional and non-functional testing. To start with
 •  It measures the responsiveness, stability, and resource utilization of the system under varying workloads.  
 •  The goal is to identify performance bottlenecks, optimize resource usage, and ensure that the system meets the desired performance criteria.  
 
+**Smoke Testing:**  
+•  Smoke testing is performed on initial builds to determine whether they are stable or not.  
+•  Whenever developers release a new build, the testing team carries out smoke tests to ensure the core functionalities work as expected.  
+•  The goal is to ensure the build is stable enough for further testing.   
+•  It is also known as Build Verification Testing or Confidence Testing.   
+
+
 *Unit testing focuses on individual components, while integration testing verifies the interactions between components. System testing evaluates the complete system, and acceptance testing ensures that the system meets business requirements. Regression testing verifies that changes have not introduced new defects, and performance testing measures the system's behavior under different loads. These practices work together to create reliable, efficient, and thoroughly tested software systems.*  
   
 **Testing Strategies**  
@@ -66,7 +73,16 @@ There are “testing development frameworks” as well to consider:
 •  BDD is an agile software development approach that combines practices from TDD and domain-driven design (DDD).  
 •  It focuses on defining the behavior of the system from the perspective of its stakeholders.  
 •  The scenarios serve as a basis for collaboration, communication, and automated testing.  
-  
+
+**Non-Functional Testing:** This is a type of software testing that verifies non-functional elements of the application, such as security, reliability, performance, and scalability. Below are the different types of non-functional testing methods:   
+
+**Load Testing**  
+•  Load testing checks how the application performs under normal and peak conditions.   
+•  It is conducted on a dedicated server which simulates the real environment.  
+•  The goal is to measure how much work the application can handle before it is negatively affected. If the system degrades under load, then changes are made to prevent such issues.  
+
+
+
   
 **Useful Links:**  
 What is Software Testing? Definition, Types, and Tools - https://katalon.com/resources-center/blog/software-testing#  
