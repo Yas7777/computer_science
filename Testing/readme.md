@@ -34,6 +34,13 @@ Testing can be divided into functional and non-functional testing. To start with
 •  It measures the responsiveness, stability, and resource utilization of the system under varying workloads.  
 •  The goal is to identify performance bottlenecks, optimize resource usage, and ensure that the system meets the desired performance criteria.  
 
+**Smoke Testing:**  
+•  Smoke testing is performed on initial builds to determine whether they are stable or not.  
+•  Whenever developers release a new build, the testing team carries out smoke tests to ensure the core functionalities work as expected.  
+•  The goal is to ensure the build is stable enough for further testing.   
+•  It is also known as Build Verification Testing or Confidence Testing.   
+
+
 *Unit testing focuses on individual components, while integration testing verifies the interactions between components. System testing evaluates the complete system, and acceptance testing ensures that the system meets business requirements. Regression testing verifies that changes have not introduced new defects, and performance testing measures the system's behavior under different loads. These practices work together to create reliable, efficient, and thoroughly tested software systems.*  
   
 **Testing Strategies**  
