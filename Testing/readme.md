@@ -81,7 +81,20 @@ There are “testing development frameworks” as well to consider:
 •  It is conducted on a dedicated server which simulates the real environment.  
 •  The goal is to measure how much work the application can handle before it is negatively affected. If the system degrades under load, then changes are made to prevent such issues.  
 
+**Performance Testing**  
+•  This test verifies the performance of the application while subjecting it to real-world scenarios.  
+•  In this test, parameters such as response time and efficiency of resource usage are monitored.   
+•  The goal of performance testing is to check how strongly the software components work.  
 
+**Stress Testing**  
+•  Stress testing subjects the system to conditions that will not happen under normal circumstances.  
+•  It measures the limit at which the application breaks.  
+•  The goal of this test is to find out how the system works under stressful conditions. It answers these questions: does the system fail? How well will it recover if it crashes?    
+
+**Volume Testing**  
+•  Volume testing evaluates the behavior of the application when a large volume of data is added to the database.   
+•  Also known as flood testing, it identifies the problems related to large amounts of data.   
+•  Volume testing is important for validating system performance and stability.   
 
   
 **Useful Links:**  
