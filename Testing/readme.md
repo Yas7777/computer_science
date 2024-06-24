@@ -73,7 +73,16 @@ There are “testing development frameworks” as well to consider:
 •  BDD is an agile software development approach that combines practices from TDD and domain-driven design (DDD).  
 •  It focuses on defining the behavior of the system from the perspective of its stakeholders.  
 •  The scenarios serve as a basis for collaboration, communication, and automated testing.  
-  
+
+**Non-Functional Testing:** This is a type of software testing that verifies non-functional elements of the application, such as security, reliability, performance, and scalability. Below are the different types of non-functional testing methods:   
+
+**Load Testing**  
+•  Load testing checks how the application performs under normal and peak conditions.   
+•  It is conducted on a dedicated server which simulates the real environment.  
+•  The goal is to measure how much work the application can handle before it is negatively affected. If the system degrades under load, then changes are made to prevent such issues.  
+
+
+
   
 **Useful Links:**  
 What is Software Testing? Definition, Types, and Tools - https://katalon.com/resources-center/blog/software-testing#  
