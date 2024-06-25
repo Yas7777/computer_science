@@ -34,6 +34,13 @@ Testing can be divided into functional and non-functional testing. To start with
 •  It measures the responsiveness, stability, and resource utilization of the system under varying workloads.  
 •  The goal is to identify performance bottlenecks, optimize resource usage, and ensure that the system meets the desired performance criteria.  
 
+**Smoke Testing:**  
+•  Smoke testing is performed on initial builds to determine whether they are stable or not.  
+•  Whenever developers release a new build, the testing team carries out smoke tests to ensure the core functionalities work as expected.  
+•  The goal is to ensure the build is stable enough for further testing.   
+•  It is also known as Build Verification Testing or Confidence Testing.   
+
+
 *Unit testing focuses on individual components, while integration testing verifies the interactions between components. System testing evaluates the complete system, and acceptance testing ensures that the system meets business requirements. Regression testing verifies that changes have not introduced new defects, and performance testing measures the system's behavior under different loads. These practices work together to create reliable, efficient, and thoroughly tested software systems.*  
   
 **Testing Strategies**  
@@ -66,8 +73,37 @@ There are “testing development frameworks” as well to consider:
 •  BDD is an agile software development approach that combines practices from TDD and domain-driven design (DDD).  
 •  It focuses on defining the behavior of the system from the perspective of its stakeholders.  
 •  The scenarios serve as a basis for collaboration, communication, and automated testing.  
-  
+
+**Non-Functional Testing:** This is a type of software testing that verifies non-functional elements of the application, such as security, reliability, performance, and scalability. Below are the different types of non-functional testing methods:   
+
+**Load Testing**  
+•  Load testing checks how the application performs under normal and peak conditions.   
+•  It is conducted on a dedicated server which simulates the real environment.  
+•  The goal is to measure how much work the application can handle before it is negatively affected. If the system degrades under load, then changes are made to prevent such issues.  
+
+**Performance Testing**  
+•  This test verifies the performance of the application while subjecting it to real-world scenarios.  
+•  In this test, parameters such as response time and efficiency of resource usage are monitored.   
+•  The goal of performance testing is to check how strongly the software components work.  
+
+**Stress Testing**  
+•  Stress testing subjects the system to conditions that will not happen under normal circumstances.  
+•  It measures the limit at which the application breaks.  
+•  The goal of this test is to find out how the system works under stressful conditions. It answers these questions: does the system fail? How well will it recover if it crashes?    
+
+**Volume Testing**  
+•  Volume testing evaluates the behavior of the application when a large volume of data is added to the database.   
+•  Also known as flood testing, it identifies the problems related to large amounts of data.   
+•  Volume testing is important for validating system performance and stability.   
+
+**Software Testing Best Practices**  
+
+Software testing is essential for project success from both customer engagement and financial standpoints. The cost of solving bugs in production is higher when compared to the testing stage. While testing may be time-consuming and expensive, understanding best practices can help the team make better decisions, leading to more effective test phases.  
+
+
+
   
 **Useful Links:**  
 What is Software Testing? Definition, Types, and Tools - https://katalon.com/resources-center/blog/software-testing#  
-TDD vs BDD vs ATDD - https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
+TDD vs BDD vs ATDD - https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd  
+Types of non-functional testing - https://testsigma.com/blog/the-different-software-testing-types-explained/
