@@ -98,8 +98,28 @@ There are “testing development frameworks” as well to consider:
 
 **Software Testing Best Practices**  
 
-Software testing is essential for project success from both customer engagement and financial standpoints. The cost of solving bugs in production is higher when compared to the testing stage. While testing may be time-consuming and expensive, understanding best practices can help the team make better decisions, leading to more effective test phases.  
+Software testing is essential for project success from both customer engagement and financial standpoints. The cost of solving bugs in production is higher when compared to the testing stage. While testing may be time-consuming and expensive, understanding best practices can help the team make better decisions, leading to more effective test phases.    
 
+**Some software testing best practices include:**  
+
+**Planning:**  
+•  Testing should have a plan that acts as a roadmap for the process.   
+•  The testing should be clear and well-documented.  
+•  The objectives of the plan should be SMART (Smart, Measurable, Achievable, Relevant, and Time-bound).   
+
+**Continuous Testing:**  
+•  The team should test each build as it becomes available.   
+•  Continuous testing helps reveal bugs in the early stages, which reduces risks.  
+•  Continuous testing relies on test automation that is integrated with the deployment process.  
+
+**Automate Testing:**  
+•  Automated testing helps the team get immediate feedback on what works and what doesn’t.   
+•  It reduces testing time and improves the test coverage.  
+•  Manual testing may work for small builds. However, larger builds should be automated for a significant positive impact.  
+
+**Metrics and Reporting:**  
+•  The test progress and observations should be documented and included in testing reports.  
+•  Reporting helps team members to share goals, status, and test results.  
 
 
   
